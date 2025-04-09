@@ -1,6 +1,6 @@
-# 🎨 Drawn.it - O Jogo com IA
+# 🎨 Draw.it - O Jogo com IA
 
-**Drawn.it** é um jogo interativo de desenhos onde cada jogador precisa representar um tema com um bloqueio criativo (ex: desenhar com a mão não-dominante). Ao final de cada rodada, os participantes votam nos melhores desenhos. Agora, com uma pitada de inteligência artificial, a IA também tenta adivinhar o que foi desenhado com base no [Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset).
+**Draw.it** é um jogo interativo de desenhos onde cada jogador precisa representar um tema com um bloqueio criativo (ex: desenhar com a mão não-dominante). Ao final de cada rodada, os participantes votam nos melhores desenhos. Agora, com uma pitada de inteligência artificial, a IA também tenta adivinhar o que foi desenhado com base no [Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset).
 
 ---
 
