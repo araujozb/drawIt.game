@@ -65,7 +65,7 @@ Utilizando o **Quick, Draw! Dataset** e modelos treinados no **Teachable Machine
 
 - [Bianca Araujo](https://github.com/araujozb)
 - [Henrique Lecce](https://github.com/hqlcc)
-- [João Pedro Helbell](https://github.com/joaohelbel)
+- [João Pedro Helbel](https://github.com/joaohelbel)
 
 ---
 
