@@ -5,6 +5,9 @@ import Rules from './pages/Rules';
 import Register from './pages/Register';
 import Game from './pages/Game';
 import EndGame from './pages/EndGame';
+import './index.css'; // ou './styles/globals.css'
+
+
 
 const App = () => {
   return (

@@ -12,7 +12,7 @@
 .statusBar {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
     background-color: #2a2a3d;
     padding: 16px;
     border-radius: 12px;
