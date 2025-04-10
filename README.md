@@ -1,26 +1,72 @@
-# 🎨 Draw.it - O Jogo com IA
+# 🎨 Draw.it — O Jogo Criativo com IA Avaliadora
 
-**Draw.it** é um jogo interativo de desenhos onde cada jogador precisa representar um tema com um bloqueio criativo (ex: desenhar com a mão não-dominante). Ao final de cada rodada, os participantes votam nos melhores desenhos. Agora, com uma pitada de inteligência artificial, a IA também tenta adivinhar o que foi desenhado com base no [Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset).
+**Draw.it** é um jogo interativo de desenho onde a criatividade e o improviso são colocados à prova! A cada rodada, os jogadores devem ilustrar um **tema aleatório**, enfrentando **bloqueios criativos** como desenhar com a mão não-dominante ou sem olhar. Mas atenção: agora temos uma **IA avaliadora** para deixar tudo mais justo (e divertido)!
 
 ---
 
-## 🧠 Agora com IA!
+## 🧠 IA como Ferramenta de Pontuação
 
-O jogo conta com um modelo de IA que analisa o desenho do jogador e tenta prever o que foi feito. Isso é possível graças ao [Teachable Machine](https://teachablemachine.withgoogle.com/) e ao dataset do Google "Quick, Draw!".
+Utilizando o **Quick, Draw! Dataset** e modelos treinados no **Teachable Machine**, a IA analisa cada desenho feito e:
+
+- 🎯 **Pontua automaticamente** os jogadores com base na similaridade entre o desenho e o tema proposto.
+- ❌ **Tira uma vida do jogador** caso o desenho fuja completamente do tema.
+- 📊 **Ajuda a construir o placar** de forma imparcial, rápida e divertida.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 🎯 Temas e bloqueios aleatórios para deixar a rodada divertida
-- 🕒 Cronômetro com tempo ajustável (10s, 20s com bônus)
-- 🖌️ Área de desenho com canvas e ferramentas simples
-- 🗳️ Sistema de votação entre jogadores
-- 🤖 **Reconhecimento de desenho com IA**
-- 🏆 Ranking de jogadores por votos
-- 💾 Preparado para expansão com back-end (Flask, Node, etc.)
+- 🎨 **Área de desenho** com ferramentas simples e intuitivas (Canvas)
+- 🕒 **Cronômetro ajustável** (ex: 10s, 20s -> bônus)
+- 🎯 **Temas e bloqueios aleatórios** para cada rodada
+- 🤖 **IA que avalia os desenhos** e atribui pontos automaticamente
+- 💔 **Sistema de vidas** — fuja do tema e perca pontos!
+- 🏆 **Ranking ao final de cada rodada**
+- 🔧 **Estrutura pronta para expansão com back-end** (Flask, Node.js etc.)
 
 ---
 
 ## 📁 Estrutura do Projeto
 
+
+
+---
+
+## 💡 Como Funciona
+
+1. Crie ou entre em uma sala com amigos.
+2. Receba um **tema aleatório** e um **bloqueio criativo**.
+3. Desenhe no tempo determinado!
+4. A **IA avalia o desenho**, atribui pontos conforme a semelhança com o tema e pode até remover uma vida.
+5. Veja o placar da rodada e continue jogando até sobrar um vencedor!
+
+---
+
+## 📦 Tecnologias Usadas
+
+- **HTML5**, **CSS3**, **JavaScript** **Python** **TypeScript**
+- **Canvas API** para o sistema de desenho **React**
+- **Teachable Machine** (Google)
+- Dataset: [Quick, Draw! Dataset](https://quickdraw.withgoogle.com/data)
+
+---
+
+## 🌱 Próximas Etapas
+
+- Multiplayer em tempo real com WebSocket
+- Perfis de jogador com histórico de partidas
+- Customização de temas e bloqueios
+- IA mais refinada com feedback visual sobre o reconhecimento
+- Sistema de conquistas e modo história
+
+---
+
+## 👨‍💻 Desenvolvedores
+
+- [Bianca Araujo](https://github.com/araujozb)
+- [Henrique Lecce](https://github.com/hqlcc)
+- [João Pedro Helbell](https://github.com/joaohelbel)
+
+---
+
+🎉 *Solte a imaginação, drible os bloqueios e confie no seu traço!*
