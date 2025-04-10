@@ -1,8 +1,8 @@
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import styles from './Register.module.css';
 
-const Register = () => {
+const Register: React.FC = () => {
   const [players, setPlayers] = useState<string[]>([]);
   const [name, setName] = useState('');
   const navigate = useNavigate();
@@ -19,24 +19,26 @@ const Register = () => {
   };
 
   return (
-    <div className="p-10 max-w-xl mx-auto space-y-6">
-      <h2 className="text-3xl font-bold text-center">👥 Registrar Jogadores</h2>
-      <div className="flex gap-2">
-        <input
-          type="text"
-          placeholder="Nome do jogador"
-          className="border p-2 rounded flex-1"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <button onClick={addPlayer} className="bg-blue-500 px-4 py-2 text-white rounded">Adicionar</button>
+    <div className={styles.container}>
+      <div className={styles.card}>
+        <h2 className={styles.title}>👥 Registrar Jogadores</h2>
+        <div className={styles.inputGroup}>
+          <input
+            type="text"
+            placeholder="Nome do jogador"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className={styles.input}
+          />
+          <button onClick={addPlayer} className={styles.button}>➕</button>
+        </div>
+        <ul>
+          {players.map((p, i) => <li key={i}>{p}</li>)}
+        </ul>
+        <button onClick={startGame} className={styles.startButton}>
+          ▶️ Iniciar Jogo
+        </button>
       </div>
-      <ul className="list-disc pl-5">
-        {players.map((p, i) => (
-          <li key={i}>{p}</li>
-        ))}
-      </ul>
-      <button onClick={startGame} className="mt-4 bg-green-500 px-6 py-2 text-white rounded">Iniciar Jogo</button>
     </div>
   );
 };
