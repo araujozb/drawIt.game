@@ -1,4 +1,4 @@
-# 🎨 Draw.it — O Jogo Criativo com IA Avaliadora
+# 🎨 Draw.it -- 
 
 **Draw.it** é um jogo interativo de desenho onde a criatividade e o improviso são colocados à prova! A cada rodada, os jogadores devem ilustrar um **tema aleatório**, enfrentando **bloqueios criativos** como desenhar com a mão não-dominante ou sem olhar. Mas atenção: agora temos uma **IA avaliadora** para deixar tudo mais justo (e divertido)!
 
